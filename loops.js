@@ -32,11 +32,12 @@ function whileLoop(number){
 //(Your condition might look something like array.length > 0 && maybeTrue().
 //Finally, return the array.
 
-function maybeTrue() {
-  return Math.random() >= 0.5
-}
 
 function doWhileLoop(array){
+  function maybeTrue() {
+    return Math.random() >= 0.5
+  }
+  
   do {
     array = array.slice(1)
   }
