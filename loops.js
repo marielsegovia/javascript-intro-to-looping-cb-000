@@ -1,4 +1,4 @@
-var array = [];
+
   //takes an array as argument, start counting from 0 and using a for loop, add a string to the array 25 times
   // if i value is 1, add string "I am 1 strange loop"
   //if i value is anything else "I am ${i} strange loops."
@@ -37,7 +37,7 @@ function doWhileLoop(array){
   function maybeTrue() {
     return Math.random() >= 0.5
   }
-  
+
   do {
     array = array.slice(1)
   }
